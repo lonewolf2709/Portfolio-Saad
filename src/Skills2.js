@@ -18,10 +18,6 @@ function Skills2()
         <p className="sigele2">CSS</p>
         <p className="sigele2">Java</p>
         <p className="sigele2">JavaScript</p>
-        </Zoom>
-        </div>
-        <div className="inner">
-        <Zoom cascade damping={0.35} triggerOnce>
         <p className="sigele2">Node.js</p>
         <p className="sigele2">Express.Js</p>
         <p className="sigele2">MongoDB</p>

@@ -31,7 +31,6 @@ window.scrollTo({
       <Intro />
       <About ref={about} />
       <Project />
-      {/* <Know /> */}
       <Skills2 />
       <Contact></Contact>
       <Footer></Footer>

@@ -8,12 +8,15 @@ import { Link as MLink} from "react-router-dom";
 import { Bounce,Fade } from "react-awesome-reveal";
 function Navbar(props)
 {
+    const x=window.innerWidth;
+    console.log(x);
     return <div className="header">
     <Bounce cascade damping={0.2} triggerOnce>
         <MLink style={{ textDecoration: 'none' }} to="https://drive.google.com/file/d/1xxDY6lkkVIffv86Aj_S4OiGEMk79Tf0q/view?usp=drive_link"><div className="nav-item resume">
             <h4>Resume</h4>
             <div className="under resumeu"></div>
         </div></MLink>
+        {x>768&&<div className="x">
         <Link activeClass="active" to="top" spy={true} smooth={true} duration={500}><div className="nav-item">
             <h4>Home</h4>
             <div className="under"></div>
@@ -43,6 +46,7 @@ function Navbar(props)
             <div className="under"></div>
         </div>
         </Link>
+        </div>}
         </Bounce>
     </div>
 }

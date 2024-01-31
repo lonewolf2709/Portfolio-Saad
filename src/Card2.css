@@ -27,6 +27,10 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7); /* Black overlay with 70% opacity */
     opacity: 0; /* Initially hidden */
+    @media(max-width:768px)
+    {
+        opacity:1;
+    }
     transition: opacity 0.3s ease; /* Smooth transition effect */
   }
   
@@ -47,6 +51,10 @@
     text-align: center;
     font-size: 20px;
     display: none;
+    @media(max-width:768px)
+    {
+        display: block;
+    }
     transition: display 1s ease-in;
 }
 .image-container:hover .overlay-content {

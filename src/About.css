@@ -13,6 +13,12 @@
 .about-content{
     display: grid;
     grid-template-columns: repeat(2,minmax(0,1fr));
+    @media(max-width:768px)
+    {
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+    }
     gap:30px;
 }
 .content{
@@ -23,11 +29,26 @@
     flex-direction: column;
     justify-content: center;
     margin-left: 10%;
+    @media(max-width:768px)
+    {
+        text-align: center;
+        align-items: center;
+        margin-left:0;
+        padding:10px;
+    }
     h3{
         font-size:1.4rem;
+        @media(max-width:768px)
+        {
+            font-size:1.1rem;
+        }
     }
     p{
         font-size:1.2rem;
+        @media(max-width:768px)
+        {
+            font-size:0.9rem;
+        }
     }
 }
 .about-image{
@@ -39,4 +60,11 @@
     border: 2px solid white;
     border-radius:20px;
     object-fit: contain;
+    @media(max-width:768px)
+    {
+        width:50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
