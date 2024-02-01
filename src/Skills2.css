@@ -6,15 +6,17 @@
     color:white;
     display: grid;
     grid-template-columns: repeat(7,1fr);
+    gap:30px;
     @media(max-width:768px)
     {
       grid-template-columns: repeat(2,1fr);
+      padding:20px;
     }
-    gap:30px;
     place-items: end center;
     align-items: center;
     margin-left:30px;
     margin-right: 30px;
+
 }
 @keyframes glow {
     0%, 100% {
@@ -34,10 +36,15 @@
     background-color: rgb(40, 40, 40,0.8);
     color:aqua;
     font-weight:700 !important;
-    text-align: center;
     border: 5px solid transparent;
       border-radius: 10px;
       animation: glow 0.8s linear infinite;
+      text-align: center;
+    @media(max-width:768px)
+    {
+      padding: 5px 20px !important;
+      font-size:0.9rem;
+    }
     padding: 7px 40px !important;
     transition: transform 0.2s;
 }

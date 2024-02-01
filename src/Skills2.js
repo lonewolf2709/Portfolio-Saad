@@ -10,7 +10,7 @@ function Skills2()
         <div className="heading-p"><h2>My Skills</h2></div>
         </Fade>
         <div className="inner">
-        <Zoom cascade damping={0.35} triggerOnce>
+        <Zoom cascade damping={0.1} triggerOnce>
         <p className="sigele2">C++</p>
         <p className="sigele2">CP</p>
         <p className="sigele2">DSA</p>

@@ -1,7 +1,8 @@
 .header{
     display: flex;
     background-color: rgb(42, 42, 42);
-    padding: 10px 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     align-items: center;
     justify-content: center;
     border-bottom:double 4px transparent;
@@ -40,6 +41,16 @@
 }
 .resume{
     color:gold;
+    display:block;
+    color:aqua;
+    /* margin-left:2%; */
+    font-weight: 500;
+    font-family: 'Kanit', sans-serif;
+    margin-bottom:0px;
+    padding-bottom:0px;
+    h4{
+        margin-bottom:0px;
+    }
 }
 .resumeu{
     background-color: gold;

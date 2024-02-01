@@ -12,7 +12,7 @@ function Navbar(props)
     console.log(x);
     return <div className="header">
     <Bounce cascade damping={0.2} triggerOnce>
-        <MLink style={{ textDecoration: 'none' }} to="https://drive.google.com/file/d/1xxDY6lkkVIffv86Aj_S4OiGEMk79Tf0q/view?usp=drive_link"><div className="nav-item resume">
+        <MLink style={{ textDecoration: 'none' }} to="https://drive.google.com/file/d/1xxDY6lkkVIffv86Aj_S4OiGEMk79Tf0q/view?usp=drive_link"><div className="resume">
             <h4>Resume</h4>
             <div className="under resumeu"></div>
         </div></MLink>
